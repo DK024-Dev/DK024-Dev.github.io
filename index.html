@@ -21,6 +21,31 @@
   <!-- Theme Style -->
   <link rel="stylesheet" href="css/style.css">
 
+  <style>
+    /* smaller portfolio card images */
+    #posts .portfolio-item {
+      display: block;
+      overflow: hidden;
+    }
+
+    #posts .portfolio-item img {
+      width: 100%;
+      height: 220px;
+      object-fit: contain;
+      object-position: center;
+      background: #f4f4f4;
+      padding: 10px;
+    }
+
+    /* app logo strip */
+    .logo-slider .logo-v1 img.app-logo {
+      height: 70px;
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      object-fit: contain;
+    }
+  </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
@@ -149,7 +174,7 @@
 
 
             <div id="posts" class="row gutter-isotope-item">
-              <div class="item travel generic col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item travel generic col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_leisure.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="9">
                   <div class="overlay">
@@ -162,7 +187,7 @@
                 </a>
               </div>
 
-              <div class="item ai ecommerce generic col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item ai ecommerce generic col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_searchcom.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="10">
                   <div class="overlay">
@@ -175,7 +200,7 @@
                 </a>
               </div>
 
-              <div class="item ecommerce generic col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item ecommerce generic col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_storecom.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="11">
                   <div class="overlay">
@@ -188,7 +213,7 @@
                 </a>
               </div>
 
-              <div class="item ecommerce generic col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item ecommerce generic col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_rebatescom.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="12">
                   <div class="overlay">
@@ -201,7 +226,7 @@
                 </a>
               </div>
 
-              <div class="item ai ecommerce generic col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item ai ecommerce generic col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_claudcom.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="13">
                   <div class="overlay">
@@ -214,7 +239,7 @@
                 </a>
               </div>
 
-              <div class="item ai erp generic col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item ai erp generic col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_attestpath.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="14">
                   <div class="overlay">
@@ -227,7 +252,7 @@
                 </a>
               </div>
 
-              <div class="item ai ecommerce generic col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item ai ecommerce generic col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_stockprices.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="15">
                   <div class="overlay">
@@ -240,7 +265,7 @@
                 </a>
               </div>
 
-              <div class="item erp packaging illustration col-sm-6 col-md-6 col-lg-6 isotope-mb-2 ">
+              <div class="item erp packaging illustration col-sm-6 col-md-4 col-lg-4 isotope-mb-2 ">
                 <a href="portfolio_equiti_gold.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="1">
                   <div class="overlay">
@@ -253,7 +278,7 @@
                 </a>
               </div>
 
-              <div class="item vehicle packaging illustration col-sm-6 col-md-6 col-lg-6 isotope-mb-2 ">
+              <div class="item vehicle packaging illustration col-sm-6 col-md-4 col-lg-4 isotope-mb-2 ">
                 <a href="portfolio_wsac.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="2">
                   <div class="overlay">
@@ -266,7 +291,7 @@
                 </a>
               </div>
 
-              <div class="item generic social col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item generic social col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_helpozzy.html" class="portfolio-item isotope-item gsap-reveal-img ajax-load-page"
                   data-id="3">
                   <div class="overlay">
@@ -279,7 +304,7 @@
                 </a>
               </div>
 
-              <div class="item erp social col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item erp social col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_byebye.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="4">
                   <div class="overlay">
@@ -292,7 +317,7 @@
                 </a>
               </div>
 
-              <div class="item erp packaging col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item erp packaging col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_equipr.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="5">
                   <div class="overlay">
@@ -305,7 +330,7 @@
                 </a>
               </div>
 
-              <div class="item social branding col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item social branding col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_lok.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="6">
                   <div class="overlay">
@@ -318,7 +343,7 @@
                 </a>
               </div>
 
-              <div class="item ecommerce packaging col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item ecommerce packaging col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_koshervalue.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="7">
                   <div class="overlay">
@@ -330,7 +355,7 @@
                   <img src="images/kosher.png" class="lazyload  img-fluid" alt="Images" />
                 </a>
               </div>
-              <div class="item learning packaging col-sm-6 col-md-6 col-lg-6 isotope-mb-2">
+              <div class="item learning packaging col-sm-6 col-md-4 col-lg-4 isotope-mb-2">
                 <a href="portfolio_chinesepod.html"
                   class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="8">
                   <div class="overlay">
@@ -348,26 +373,6 @@
           </div>
         </div>
       </div>
-
-
-      <!-- <div class="unslate_co--section">
-        <div class="container">
-          <div class="owl-carousel logo-slider">
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-google.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-puma.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-paypal.png" alt="Image" class="img-fluid">
-            </div>
-            <div class="logo-v1 gsap-reveal">
-              <img src="images/logo-adobe.png" alt="Image" class="img-fluid">
-            </div>
-          </div>
-        </div>
-      </div> -->
 
 
       <div class="unslate_co--section" id="about-section">
